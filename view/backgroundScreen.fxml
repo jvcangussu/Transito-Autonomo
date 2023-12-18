@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/8.0.351" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Controller">
+   <children>
+      <ImageView fitHeight="624.0" fitWidth="832.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="unoTrackImage" fitHeight="624.0" fitWidth="832.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/unoTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ferrariTrackImage" fitHeight="624.0" fitWidth="832.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/ferrariTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mclarenTrackImage" fitHeight="624.0" fitWidth="832.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/mclarenTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lamboTrackImage" fitHeight="624.0" fitWidth="832.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/lamborghiniTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bmwTrackImage" fitHeight="624.0" fitWidth="832.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/bmwTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bugattiTrackImage" fitHeight="624.0" fitWidth="832.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/bugattiTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gtrTrackImage" fitHeight="624.0" fitWidth="832.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/nissangtrTrack.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mercedesTrackImage" fitHeight="624.0" fitWidth="832.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/mercedesTrack.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="sliderUno" layoutX="658.0" layoutY="141.0" />
+      <Slider fx:id="sliderFerrari" layoutX="658.0" layoutY="209.0" />
+      <Slider fx:id="sliderMcLaren" layoutX="658.0" layoutY="272.0" />
+      <Slider fx:id="sliderLambo" layoutX="658.0" layoutY="338.0" />
+      <Slider fx:id="sliderBMW" layoutX="658.0" layoutY="407.0" />
+      <Slider fx:id="sliderBugatti" layoutX="658.0" layoutY="472.0" />
+      <Slider fx:id="sliderGTR" layoutX="658.0" layoutY="538.0" />
+      <Slider fx:id="sliderMercedes" layoutX="658.0" layoutY="603.0" />
+      <ImageView fx:id="unoPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="101.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ferrariPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="168.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mcLarenPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="234.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lamboPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="300.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bmwPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="365.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bugattiPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="432.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gtrPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="497.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mercedesPauseButton" fitHeight="32.0" fitWidth="32.0" layoutX="642.0" layoutY="564.0" onMouseClicked="#pausarCarro" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="unoTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="101.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ferrariTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="168.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mcLarenTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="234.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lamboTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="300.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bmwTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="365.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bugattiTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="432.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gtrTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="497.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mercedesTrackButton" fitHeight="32.0" fitWidth="32.0" layoutX="782.0" layoutY="564.0" onMouseClicked="#showTrack" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/showTrackButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="resetButton" fitHeight="72.0" fitWidth="150.0" layoutX="692.0" layoutY="35.0" onMouseClicked="#resetAll" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/resetButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="unoImage" fitHeight="40.0" fitWidth="40.0" layoutX="78.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../img/unocomescada.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ferrariImage" fitHeight="40.0" fitWidth="40.0" layoutX="550.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../img/ferrari.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mcLarenImage" fitHeight="40.0" fitWidth="40.0" layoutX="233.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@../img/mclaren.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lamboImage" fitHeight="40.0" fitWidth="40.0" layoutX="115.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../img/lamborghini.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bmwImage" fitHeight="40.0" fitWidth="40.0" layoutX="351.0" layoutY="507.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../img/bmw.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bugattiImage" fitHeight="40.0" fitWidth="40.0" layoutX="469.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+         <image>
+            <Image url="@../img/bugatti.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gtrImage" fitHeight="40.0" fitWidth="40.0" layoutX="550.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../img/nissangtr.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mercedesImage" fitHeight="40.0" fitWidth="40.0" layoutX="152.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/mercedes.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
